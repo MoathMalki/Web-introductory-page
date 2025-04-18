@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community</title>
+</head>
+
+<body>
+    <hr>
+    <header> 
+        <table width="100%" border="0">
+            <tbody><tr>
+                <td width="100">
+                    <img src="cc.png" alt="logo" width="600" height="150">
+                </td>
+                <td>
+                    <h1>Collaboration Coding</h1>
+                    <p>A collaborative community for web programming</p>
+                </td>
+            </tr>
+        </tbody></table>
+
+       <hr>
+        
+         <p><img src="home.png" alt="Home Icon" width="30"><a href="index.html"> Home </a></p>
+         <p><img src="profile.jpeg" alt="Profile Icon" width="30"><a href="userprofile.html" >Profiles </a></p>
+         <p><img src="base.png" alt="Base Icon" width="30"> <a href="knwledgebase.html"> Knowledge Base</a></p>
+         <p><img src="file.png" alt="File Sharing  Icon" width="30"> <a href="filesharing.html"> File Sharing</a></p>
+         <p><img src="search.png" alt="Search Icon" width="30"><a href="search.html"> Search  </a> </p>
+         <p><img src="contactus.png" alt="Contact Us" width="30"><a href="contactus.html"> Contact Us  </a> </p>
+
+
+        <hr>
+
+    </header>
+
+
+
+    
+        <h2>Upload and Download Files </h2>
+        <form action="http://yhassouneh.studentprojects.ritaj.ps/util/process.php" method="post" enctype="multipart/form-data">
+            <fieldset>
+                <legend><b>New File</b></legend>
+                
+                <label for="FileTitle">File Title:</label>
+                <input type="text" name="FileTitle" id="FileTitle" required="">
+                <br><br>
+                
+                <label for="FileDescription">Description:</label>
+                <textarea name="FileDescription" id="FileDescription" cols="50" rows="3" required=""></textarea>
+                <br><br>
+                
+                <label for="file_upload">Select File:</label>
+                <input type="file" name="file_upload" id="file_upload" required="">
+                <br><br>
+                
+                <label>File Type:</label>
+                <select name="file_type" required="">
+                    <option value="" disabled="" selected="">Select a file type</option>
+                    <option value="document">Document</option>
+                    <option value="image">Image</option>
+                    <option value="video">Video</option>
+                    <option value="code">Source Code</option>
+                    <option value="other">Other</option>
+                </select>
+                <br><br>
+
+                <label>Languages:</label>
+                <select name="Languages" required="">
+                    <option value="" disabled="" selected="">Select a Languages</option>
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="Js">Js</option>
+                    <option value="React">React</option>
+                    <option value="Java">Java</option>
+                    <option value="C">C</option>
+                    <option value="Python">Python</option>
+                    <option value="other">Other</option>
+                </select>
+                <br><br>
+
+                <label>Type:</label>
+                <input type="radio" id="up" name="Upload" value="Upload" required="">
+                <label for="Upload">Upload</label>
+                <input type="radio" id="dn" name="Download" value="Download" required="">
+                <label for="Download">Download</label>
+                
+                <br><br>
+
+                <input type="submit" value="Upload File">
+                <input type="submit" value="Download File">
+
+            </fieldset>
+        </form>
+   
+
+
+    <h2>Download File</h2>
+    <p>You can download them; they are shared by members of the Community.</p>
+       <ul>
+        <li> <a href="../../adress.png" download>Image</a><br></li>
+        
+        <li> <a href="../../Exam.pdf" download>Download File </a></li>
+ 
+       </ul>
+       <hr>
+    
+    
+
+    
+    <footer>  
+        <h3> Contact Information </h3>
+        <p><img src="../../emailee.png" alt="Email Icon" width="20"> Email: moathmouadi4@gmail.com</p>
+        <p><img src="../../phone.png" alt="Phone Icon" width="20"> Phone: 0568082707</p>
+        <p><img src="../../adress.png" alt="Adress Icon" width="20"> Adress: Rammallah - Kafer Malik</p>
+    
+    </footer>
+
+</body>
+    
+
+</html>

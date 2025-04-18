@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community</title>
+</head>
+
+<body>
+    <hr>
+    <header> 
+        <table width="100%" border="0">
+            <tbody><tr>
+                <td width="100">
+                    <img src="cc.png" alt="logo" width="600" height="150">
+                </td>
+                <td>
+                    <h1>Collaboration Coding</h1>
+                    <p>A collaborative community for web programming</p>
+                </td>
+            </tr>
+        </tbody></table>
+
+       <hr>
+        
+         <p><img src="home.png" alt="Home Icon" width="30"><a href="index.html"> Home </a></p>
+         <p><img src="profile.jpeg" alt="Profile Icon" width="30"><a href="userprofile.html" >Profiles </a></p>
+         <p><img src="base.png" alt="Base Icon" width="30"> <a href="knwledgebase.html"> Knowledge Base</a></p>
+         <p><img src="file.png" alt="File Sharing  Icon" width="30"> <a href="filesharing.html"> File Sharing</a></p>
+         <p><img src="search.png" alt="Search Icon" width="30"><a href="search.html"> Search  </a> </p>
+         <p><img src="contactus.png" alt="Contact Us" width="30"><a href="contactus.html"> Contact Us  </a> </p>
+
+
+        <hr>
+
+    </header>
+    <section>
+        <h2>Submit an Article</h2>
+        <form action="http://yhassouneh.studentprojects.ritaj.ps/util/process.php" method="POST" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Article</legend>
+
+                <p>
+                    <label for="articletitle">Title: <br> </label>
+                    <input type="text" name="article_title" placeholder="" id="articletitle" required="" fdprocessedid="">
+                </p>
+
+                <p>
+                    <label for="articleDescription">Article Description: <br> </label>
+                    <textarea name="articleDescription" placeholder="" id="articleDescription" required=""></textarea>
+                </p>
+
+                <p>
+                    <label for="ArticleContent"> Content: <br> </label>
+                    <textarea name="ArticleContent" id="ArticleContent" required="" rows="10" cols="50"></textarea>
+                </p>
+                
+
+                <h3>Course</h3>
+                <label for="Course">Course:</label>
+                <select id="Course" name="Course" required="" fdprocessedid="">
+                    <option value="" disabled="" selected="">Select Course </option>
+                    <option value="COMP483">COMP483</option>
+                    <option value="COMP334">COMP334</option>
+                    <option value="COMP224">COMP224</option>
+                    <option value="COMP338">COMP338</option>
+                    <option value="ENCS234">ENCS234</option>
+                    <option value="ENCS443">ENCS443</option>
+                    <option value="ENCS432">ENCS432</option>
+                   
+                </select>
+
+                <p>
+                    <label for="ArticleMedia">Upload Images or Videos: <br> </label>
+                    <input type="file" name="ArticleMedia" id="ArticleMedia" required="">
+                </p>
+
+                <input type="submit" value="Submit"> <input type="reset" value="reset" fdprocessedid="">
+
+
+            </fieldset>
+        </form>
+    </section>
+
+</body>
+        <hr>
+
+    <footer>  
+        <h3> Contact Information </h3>
+        <p><img src="../../emailee.png" alt="Email Icon" width="20"> Email: moathmouadi4@gmail.com</p>
+        <p><img src="../../phone.png" alt="Phone Icon" width="20"> Phone: 0568082707</p>
+        <p><img src="../../adress.png" alt="Adress Icon" width="20"> Adress: Rammallah - Kafer Malik</p>
+    
+    </footer>
+    
+   
+    
+    
+    </html>
+    
